@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.background{
+    background: url('https://i.picsum.photos/id/523/600/450.jpg?hmac=F4u29ir9knILd_lY3FS4-3XjXFoCCcUGA0eNhMVz1Hs') no-repeat center center/cover;
+    /* background-repeat: no-repeat;   background-size: center/cover;   background-position: center; */
+    position: absolute;
+    top: -20px;
+    bottom: -20px;
+    left: -20px;
+    right: -20px;
+    z-index: -1;
+    filter: blur(20px);
+}
